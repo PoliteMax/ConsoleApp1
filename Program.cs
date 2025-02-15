@@ -151,6 +151,18 @@ namespace ConsoleApp1
 
             // Обновление поля результата
             resultTextBox.Text = result;
+
+            //resultTextBox = new TextBox
+            //{
+            //    Location = new Point(30, 400),
+            //    Width = 440,
+            //    ReadOnly = true,
+            //    Font = new Font("Arial", 24),
+            //    TextAlign = HorizontalAlignment.Center
+            //};
+            //this.Controls.Add(resultTextBox);
+
+
         }
 
         [STAThread]
@@ -160,6 +172,15 @@ namespace ConsoleApp1
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
         }
+    
+    
+    
+     
+    
+    
+    
     }
+
+
 
 }
